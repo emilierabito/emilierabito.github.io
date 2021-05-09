@@ -246,6 +246,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  
 }
 
 button,
@@ -3022,6 +3023,7 @@ input[type=button].btn-block {
   height: 0;
   overflow: hidden;
   transition: height 0.35s ease;
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
@@ -4091,6 +4093,7 @@ input[type=button].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+
 }
 
 .navbar-toggler {
@@ -4154,11 +4157,13 @@ input[type=button].btn-block {
     flex-wrap: nowrap;
   }
   .navbar-expand-sm .navbar-nav-scroll {
-    overflow: visible;
+    overflow: visible; 
+    
   }
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
+    
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -4348,7 +4353,8 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5);
+  color: #add8e6; 
+
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -10150,6 +10156,7 @@ body {
 #mainNav {
   min-height: 3.5rem;
   background-color: black;
+
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10172,6 +10179,7 @@ body {
   color: fade(#fff, 80%);
   outline: none;
   background-color: transparent;
+  color: #add8e6; 
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
@@ -10287,9 +10295,11 @@ body {
 .about-section {
   padding-top: 10rem;
   background: black;
+  
 }
 .about-section p {
   margin-bottom: 5rem;
+  
 }
 
 .projects-section {
